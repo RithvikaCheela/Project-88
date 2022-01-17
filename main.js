@@ -107,7 +107,7 @@ function my_keydown(e)
 	{
 		if(ball_x>0){
 			ball_x=ball_x-block_image_width;
-			console.log("When Left is pressed , x =" + ball_x+", y ="+ballr_y);
+			console.log("When Left is pressed , x =" + ball_x+", y ="+ball_y);
 			console.log("block width =" + block_image_width);
 			canvas.remove(ball_obj);
 			new_image();
